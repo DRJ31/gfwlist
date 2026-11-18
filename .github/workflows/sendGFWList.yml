@@ -61,6 +61,7 @@ jobs:
         id: auto-commit-action-bocchi810
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
+          skip_fetch: true
           commit_author: "${{ steps.import-gpg-bocchi810.outputs.name }} <${{ steps.import-gpg-bocchi810.outputs.email }}>"
           commit_user_name: ${{ steps.import-gpg-bocchi810.outputs.name }}
           commit_user_email: ${{ steps.import-gpg-bocchi810.outputs.email }}
@@ -72,5 +73,39 @@ jobs:
         id: auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
+          skip_fetch: true
           commit_message: gfwlist edited ${{ env.DATE }}
           file_pattern: 'gfwlist.txt'
+
+      - name: Push to GitLab
+        if: github.ref == 'refs/heads/master'
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+          GITLAB_USERNAME: ${{ secrets.GITLAB_USERNAME }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GITLAB_TOKEN:-}" ]; then
+            echo "::warning::GITLAB_TOKEN is not configured, skipping GitLab mirror sync."
+            exit 0
+          fi
+          export GIT_TERMINAL_PROMPT=0
+          username="${GITLAB_USERNAME:-oauth2}"
+          echo "Syncing $(git rev-parse --short HEAD) to GitLab..."
+          git push --force "https://${username}:${GITLAB_TOKEN}@gitlab.com/gfwlist/gfwlist.git" "HEAD:refs/heads/master"
+
+      - name: Push to Bitbucket
+        if: github.ref == 'refs/heads/master'
+        shell: bash
+        env:
+          BITBUCKET_TOKEN: ${{ secrets.BITBUCKET_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${BITBUCKET_TOKEN:-}" ]; then
+            echo "::warning::BITBUCKET_TOKEN is not configured, skipping Bitbucket mirror sync."
+            exit 0
+          fi
+          export GIT_TERMINAL_PROMPT=0
+          echo "Syncing $(git rev-parse --short HEAD) to Bitbucket..."
+          git push --force \
+            "https://x-token-auth:${BITBUCKET_TOKEN}@bitbucket.org/gfwlist/gfwlist.git" \
+            "HEAD:refs/heads/master"

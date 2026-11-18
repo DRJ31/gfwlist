@@ -37,6 +37,7 @@
 ||angela-merkel.de
 ||angola.org
 ||anthropic.com
+||anthropic.auth0.com
 ||apartmentratings.com
 ||apartments.com
 ||arena.taipei
@@ -58,6 +59,9 @@
 ||ciciai.com
 ||cici.com
 ||claude.ai
+||claude.app
+||claudeusercontent.com
+||claudemcpcontent.com
 ||clearsurance.com
 ||cnbeta.com.tw
 ||counter.social
@@ -659,6 +663,8 @@ www.aolnews.com
 !!---Dynu---
 ||dynu.com
 !!---Facebook---
+||meta.ai
+||metaaivm.com
 ||accountkit.com
 ||cdninstagram.com
 ||f8.com
@@ -1115,6 +1121,22 @@ www.aolnews.com
 ||x.com
 
 !!---Taiwan---
+||khc.edu.tw
+||vscc.org.tw
+||poland.tw
+||tybio.com.tw
+||twfhcsec.com.tw
+||ttl.com.tw
+||tfd.org.tw
+||nstc.org.tw
+||mirdc.org.tw
+||landbank.com.tw
+||indsr.org.tw
+||icdf.org.tw
+||eximbank.com.tw
+||csc.com.tw
+||cpc.com.tw
+||aidc.com.tw
 ||taiwanembassy.org
 ||roc-taiwan.org
 ||twgov.tw
@@ -1126,6 +1148,7 @@ www.aolnews.com
 ||teco-mo.org
 ||kinmen.org.tw
 !!---USA---
+||ned.org
 ||spaceforce.mil
 ||airuniversity.af.edu
 ||supremecourt.gov
@@ -1188,6 +1211,9 @@ iipdigital.usembassy.gov
 ||yahoo.com.hk
 ||yahoo.com
 !------------------Numerics---------------------
+||51papaya.com
+||123av.org
+||7x24hrs.com
 ||123av.me
 ||123av.com
 ||18comic.vip
@@ -1441,6 +1467,8 @@ iipdigital.usembassy.gov
 !--boxun.azurewebsites.net doesn't exist.
 ||boxun*.azurewebsites.net
 !--------------------BB-------------------------
+||boylove.cc
+||blue-plus.net
 ||briarproject.org
 ||bilinovel.com
 ||boomplay.com
@@ -1521,6 +1549,7 @@ iipdigital.usembassy.gov
 ||bigjapanesesex.com
 ||bignews.org
 ||bild.de
+||bilibili.tv
 |http://biliworld.com
 |http://bit.do
 |http://bit.ly
@@ -1584,6 +1613,7 @@ iipdigital.usembassy.gov
 ||brookings.edu
 ||brutaltgp.com
 ||bsky.app
+||bsky.chat
 ||bsky.network
 ||bsky.social
 ||bt95.com
@@ -1608,6 +1638,9 @@ iipdigital.usembassy.gov
 ||bwh1.net
 ||bypasscensorship.org
 !--------------------CC-------------------------
+||console.typesafe.ai
+||cangku.moe
+||chineseposters.net
 ||ctee.com.tw
 ||chatgpt.site
 ||cht.com.tw
@@ -1850,6 +1883,7 @@ iipdigital.usembassy.gov
 ||mike.cz.cc
 ||nic.cz.cc
 !--------------------DD-------------------------
+||dh.net
 ||divdyn.com
 ||data18.com
 ||dt18.com
@@ -1973,6 +2007,7 @@ iipdigital.usembassy.gov
 ||dynawebinc.com
 ||dysfz.cc
 !--------------------EE-------------------------
+||movie.eroterest.net
 ||edigest.hk
 ||app.element.io
 ||economist.com
@@ -2056,6 +2091,7 @@ iipdigital.usembassy.gov
 ||eyevio.jp
 ||eyny.com
 !--------------------FF-------------------------
+||fuyin116.com
 ||freedom.gov
 ||hyperbeam.com
 ||flowgpt.com
@@ -2209,6 +2245,7 @@ iipdigital.usembassy.gov
 ||fxcm-chinese.com
 ||f95zone.to
 !--------------------GG-------------------------
+||c.go-mpulse.net
 ||getmonero.org
 ||gate.com
 ||guangming.com.my
@@ -2349,6 +2386,9 @@ iipdigital.usembassy.gov
 ||gunsamerica.com
 |http://gvlib.com
 !--------------------HH-------------------------
+||hentaiclub.net
+||hanimeone.me
+||hanime1.com
 ||hentai.tv
 ||hkej.com
 ||hkong.hk
@@ -2482,6 +2522,7 @@ iipdigital.usembassy.gov
 ||hypothes.is
 ||ebook.hyread.com.tw
 !--------------------II-------------------------
+||ipac.global
 ||infosec.exchange
 ||investing.com
 ||idcflare.com
@@ -2606,6 +2647,10 @@ iipdigital.usembassy.gov
 ||iyouport.com
 ||iyouport.org
 !--------------------JJ-------------------------
+||ga.jspm.io
+||javchu.com
+||jkforum.net
+||javfree.me
 ||jhelab.org
 ||justmysockscn.com
 ||justmysocks.net
@@ -2654,6 +2699,7 @@ iipdigital.usembassy.gov
 ||juziyue.com
 ||cdn.jwplayer.com
 !--------------------KK-------------------------
+||kimootoko.net
 ||kards.com
 ||kfor.com
 ||kathmandupost.com
@@ -2799,6 +2845,10 @@ iipdigital.usembassy.gov
 ||lzmtnews.org
 ||leonardo.ai
 !--------------------MM-------------------------
+||minkch.com
+||matichon.co.th
+||moeli-desu.com
+||muse.ai
 ||historylines.net
 ||kiwix.org
 ||mceindex.com
@@ -2816,6 +2866,8 @@ iipdigital.usembassy.gov
 ||mjj.rip
 ||mcusercontent.com
 ||metamask.io
+||missav.live
+||missav.ai
 ||missav.ws
 ||news.mt.co.kr
 ||musixmatch.com
@@ -2965,8 +3017,13 @@ iipdigital.usembassy.gov
 ||mypopescu.com
 ||myspacecdn.com
 !--------------------NN-------------------------
+||njavtv.com
+||njav.tv
+||njav.com
+||nationthailand.com
+||note.com
 ||nthlink.com
-||neodb.social 
+||neodb.social
 ||nfscofficial.com
 ||nfsc.press
 ||newstimes.com
@@ -2976,7 +3033,7 @@ iipdigital.usembassy.gov
 ||namu.wiki
 ||nirsoft.net
 ||naver.com
-||maven.neoforged.net
+||neoforged.net
 ||nftstorage.link
 ||newindianexpress.com
 ||news18.com
@@ -3148,6 +3205,7 @@ iipdigital.usembassy.gov
 ||ow.ly
 ||ozvoice.org
 !--------------------PP-------------------------
+||po-kaki-to.com
 ||perma.cc
 ||pcgamesn.com
 ||penguin.com.au
@@ -3338,6 +3396,8 @@ iipdigital.usembassy.gov
 ||pximg.net
 ||python.com.tw
 !--------------------QQ-------------------------
+||qingse.one
+||qobuz.com
 ||quakemachinex.com
 |http://qmp4.com
 ||qianmo.tw
@@ -3357,6 +3417,7 @@ iipdigital.usembassy.gov
 ||quitccp.org
 |http://quran.com
 !--------------------RR-------------------------
+||rocmgov.org
 ||roushuwo.com
 ||esim.redteago.com
 ||restofworld.org
@@ -3455,6 +3516,7 @@ iipdigital.usembassy.gov
 ||raphael.app
 ||rule34.us
 !--------------------SS-------------------------
+||sing-box.sagernet.org
 ||supjav.com
 ||api.shuaiapi.com
 ||sb.sb
@@ -3698,6 +3760,8 @@ iipdigital.usembassy.gov
 ||syncback.com
 ||sotwe.com
 !--------------------TT-------------------------
+||api.themoviedb.org
+||torrentleech.org
 ||taiav.com
 ||tryai.dev
 ||theintercept.com
@@ -4072,6 +4136,7 @@ iipdigital.usembassy.gov
 ||uyghurtribunal.com
 |http://uymaarip.com/
 !--------------------VV-------------------------
+||vava8.com
 ||v.recipes
 ||vox.com
 ||vimeocdn.com
@@ -4151,6 +4216,7 @@ iipdigital.usembassy.gov
 ||vrporn.com
 ||vtunnel.com
 !--------------------WW-------------------------
+||wallhaven.cc
 ||wtfpass.com
 ||write.as
 ||windy.com
@@ -4293,6 +4359,7 @@ iipdigital.usembassy.gov
 ||wuw.red
 ||wwitv.com
 !--------------------XX-------------------------
+||xx.net
 ||x86.fr
 ||xuan.com.my
 ||xdaforums.com
@@ -4340,6 +4407,7 @@ iipdigital.usembassy.gov
 ||xxxx.com.au
 |http://xxxymovies.com
 !--------------------YY-------------------------
+||youversionapi.com
 ||yfsp.tv
 ||youmind.com
 ||yangzhi.org
@@ -4394,6 +4462,7 @@ iipdigital.usembassy.gov
 ||yysub.net
 ||yzzk.com
 !--------------------ZZ-------------------------
+||zozovideo.com
 ||zenmux.ai
 ||zhangzhehan.net
 ||zaochenbao.com
